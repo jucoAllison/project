@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* overflow: hidden; */
+    font-family: viga;
+}
+
+:root{
+    --defaultColor: rgb(68, 68, 68);
+}
+
+/* EVERYTHING ABOUT NAV */
+#logo{
+    display: flex;
+    color: var(--defaultColor);
+    font-size: 30px;
+    margin-top: 30PX;
+}
+#brand{
+    color: var(--defaultColor);
+    position: absolute;
+    margin-left: 87px;
+}
+#menu{
+    margin-left: auto;
+    margin-right: 87px;
+    max-width: 40px;
+}

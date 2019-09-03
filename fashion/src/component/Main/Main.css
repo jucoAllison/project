@@ -1,0 +1,32 @@
+
+
+/* EVERYTHING ABOUT BODY */
+#body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    font-size: 20px;
+}
+#intro{
+    margin-top: 0px;
+}
+#find{
+    color: var(--defaultColor);
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+#img{
+    max-width: 600px;
+
+}
+#img img{
+    max-width: 100%;
+}
+#send{
+    color: var(--defaultColor);
+    max-width: 100px;
+    text-align: center;
+    line-height: 1;
+}
